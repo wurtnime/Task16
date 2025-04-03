@@ -1,0 +1,21 @@
+C:\Users\Пользователь\source\repos\ConsoleApp0325\bin\Debug\ConsoleApp0325.exe.config
+C:\Users\Пользователь\source\repos\ConsoleApp0325\bin\Debug\ConsoleApp0325.exe
+C:\Users\Пользователь\source\repos\ConsoleApp0325\bin\Debug\ConsoleApp0325.pdb
+C:\Users\Пользователь\source\repos\ConsoleApp0325\obj\Debug\ConsoleApp0325.csproj.AssemblyReference.cache
+C:\Users\Пользователь\source\repos\ConsoleApp0325\obj\Debug\ConsoleApp0325.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\source\repos\ConsoleApp0325\obj\Debug\ConsoleApp0325.exe
+C:\Users\Пользователь\source\repos\ConsoleApp0325\obj\Debug\ConsoleApp0325.pdb
+D:\Programming\ConsoleApp0325\bin\Debug\ConsoleApp0325.exe.config
+D:\Programming\ConsoleApp0325\bin\Debug\ConsoleApp0325.exe
+D:\Programming\ConsoleApp0325\bin\Debug\ConsoleApp0325.pdb
+D:\Programming\ConsoleApp0325\obj\Debug\ConsoleApp0325.csproj.AssemblyReference.cache
+D:\Programming\ConsoleApp0325\obj\Debug\ConsoleApp0325.csproj.CoreCompileInputs.cache
+D:\Programming\ConsoleApp0325\obj\Debug\ConsoleApp0325.exe
+D:\Programming\ConsoleApp0325\obj\Debug\ConsoleApp0325.pdb
+D:\ОП\Практика №16\bin\Debug\ConsoleApp0325.exe.config
+D:\ОП\Практика №16\bin\Debug\ConsoleApp0325.exe
+D:\ОП\Практика №16\bin\Debug\ConsoleApp0325.pdb
+D:\ОП\Практика №16\obj\Debug\ConsoleApp0325.csproj.AssemblyReference.cache
+D:\ОП\Практика №16\obj\Debug\ConsoleApp0325.csproj.CoreCompileInputs.cache
+D:\ОП\Практика №16\obj\Debug\ConsoleApp0325.exe
+D:\ОП\Практика №16\obj\Debug\ConsoleApp0325.pdb

@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EF67E890-50E4-4342-8842-DBFAFFD1C352}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ConsoleApp0325</RootNamespace>
+    <AssemblyName>ConsoleApp0325</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\FileProccesor2.cs" />
+    <Compile Include="Classes\FileProccesor1.cs" />
+    <Compile Include="Classes\FileProccesor3.cs" />
+    <Compile Include="Classes\FileProccesor30.cs" />
+    <Compile Include="Classes\FileProccesor4.cs" />
+    <Compile Include="Classes\FileProccesor5.cs" />
+    <Compile Include="Classes\FileProccesor6.cs" />
+    <Compile Include="Classes\FileProccesor7.cs" />
+    <Compile Include="Classes\FileProccesor9.cs" />
+    <Compile Include="Classes\FileProccesor11.cs" />
+    <Compile Include="Classes\FileProccesor12.cs" />
+    <Compile Include="Classes\FileProccesor13.cs" />
+    <Compile Include="Classes\FileProccesor21.cs" />
+    <Compile Include="Classes\FileProccesor14.cs" />
+    <Compile Include="Classes\FileProccesor20.cs" />
+    <Compile Include="Classes\FileProccesor19.cs" />
+    <Compile Include="Classes\FileProccesor18.cs" />
+    <Compile Include="Classes\FileProccesor15.cs" />
+    <Compile Include="Classes\FileProccesor17.cs" />
+    <Compile Include="Classes\FileProccesor16.cs" />
+    <Compile Include="Classes\FileProccesor23.cs" />
+    <Compile Include="Classes\FileProccesor24.cs" />
+    <Compile Include="Classes\FileProccesor22.cs" />
+    <Compile Include="Classes\FileProccesor25.cs" />
+    <Compile Include="Classes\FileProccesor26.cs" />
+    <Compile Include="Classes\FileProccesor27.cs" />
+    <Compile Include="Classes\FileProccesor28.cs" />
+    <Compile Include="Classes\FileProccesor29.cs" />
+    <Compile Include="Classes\FileProccesor10.cs" />
+    <Compile Include="Classes\FileProccesor8.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TextFiles\TextTemplate10.1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>TextTemplate10.1.txt</LastGenOutput>
+    </Content>
+    <Content Include="TextFiles\TextTemplate10.1.txt">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TextTemplate10.1.tt</DependentUpon>
+    </Content>
+    <Content Include="TextFiles\TextTemplate2.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>TextTemplate2.txt</LastGenOutput>
+    </Content>
+    <Content Include="TextFiles\TextTemplate2.txt">
+      <DependentUpon>TextTemplate2.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Content>
+    <Content Include="TextFiles\TextTemplate22,2.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>TextTemplate22,2.txt</LastGenOutput>
+    </Content>
+    <Content Include="TextFiles\TextTemplate22,2.txt">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TextTemplate22,2.tt</DependentUpon>
+    </Content>
+    <Content Include="TextFiles\TextTemplate4.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>TextTemplate4.txt</LastGenOutput>
+    </Content>
+    <Content Include="TextFiles\TextTemplate4.txt">
+      <DependentUpon>TextTemplate4.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Content>
+    <Content Include="TextFiles\TextTemplate5.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>TextTemplate5.txt</LastGenOutput>
+    </Content>
+    <Content Include="TextFiles\TextTemplate5.txt">
+      <DependentUpon>TextTemplate5.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Content>
+    <Content Include="TextFiles\TextTemplate8.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>TextTemplate8.txt</LastGenOutput>
+    </Content>
+    <Content Include="TextFiles\TextTemplate8.txt">
+      <DependentUpon>TextTemplate8.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Content>
+    <Content Include="TextFiles\TextTemplate6.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>TextTemplate6.txt</LastGenOutput>
+    </Content>
+    <Content Include="TextFiles\TextTemplate6.txt">
+      <DependentUpon>TextTemplate6.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Content>
+    <Content Include="TextFiles\TextTemplate9.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>TextTemplate9.txt</LastGenOutput>
+    </Content>
+    <Content Include="TextFiles\TextTemplate9.txt">
+      <DependentUpon>TextTemplate9.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Content>
+    <Content Include="TextFiles\TextTemplate7.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>TextTemplate7.txt</LastGenOutput>
+    </Content>
+    <Content Include="TextFiles\TextTemplate7.txt">
+      <DependentUpon>TextTemplate7.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Content>
+    <Content Include="TextFiles\TextTemplate10.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>TextTemplate10.txt</LastGenOutput>
+    </Content>
+    <Content Include="TextFiles\TextTemplate10.txt">
+      <DependentUpon>TextTemplate10.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Content>
+    <Content Include="TextFiles\TextTemplate11.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>TextTemplate11.txt</LastGenOutput>
+    </Content>
+    <Content Include="TextFiles\TextTemplate11.txt">
+      <DependentUpon>TextTemplate11.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Content>
+    <Content Include="TextFiles\TextTemplate12.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>TextTemplate12.txt</LastGenOutput>
+    </Content>
+    <Content Include="TextFiles\TextTemplate12.txt">
+      <DependentUpon>TextTemplate12.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Content>
+    <Content Include="TextFiles\TextTemplate13.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>TextTemplate13.txt</LastGenOutput>
+    </Content>
+    <Content Include="TextFiles\TextTemplate13.txt">
+      <DependentUpon>TextTemplate13.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Content>
+    <Content Include="TextFiles\TextTemplate14.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>TextTemplate14.txt</LastGenOutput>
+    </Content>
+    <Content Include="TextFiles\TextTemplate14.txt">
+      <DependentUpon>TextTemplate14.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Content>
+    <Content Include="TextFiles\TextTemplate15.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>TextTemplate15.txt</LastGenOutput>
+    </Content>
+    <Content Include="TextFiles\TextTemplate15.txt">
+      <DependentUpon>TextTemplate15.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Content>
+    <Content Include="TextFiles\TextTemplate16.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>TextTemplate16.txt</LastGenOutput>
+    </Content>
+    <Content Include="TextFiles\TextTemplate16.txt">
+      <DependentUpon>TextTemplate16.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Content>
+    <Content Include="TextFiles\TextTemplate17.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>TextTemplate17.txt</LastGenOutput>
+    </Content>
+    <Content Include="TextFiles\TextTemplate17.txt">
+      <DependentUpon>TextTemplate17.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Content>
+    <Content Include="TextFiles\TextTemplate18.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>TextTemplate18.txt</LastGenOutput>
+    </Content>
+    <Content Include="TextFiles\TextTemplate18.txt">
+      <DependentUpon>TextTemplate18.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Content>
+    <Content Include="TextFiles\TextTemplate19.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>TextTemplate19.txt</LastGenOutput>
+    </Content>
+    <Content Include="TextFiles\TextTemplate19.txt">
+      <DependentUpon>TextTemplate19.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Content>
+    <Content Include="TextFiles\TextTemplate20.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>TextTemplate20.txt</LastGenOutput>
+    </Content>
+    <Content Include="TextFiles\TextTemplate20.txt">
+      <DependentUpon>TextTemplate20.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Content>
+    <Content Include="TextFiles\TextTemplate21.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>TextTemplate21.txt</LastGenOutput>
+    </Content>
+    <Content Include="TextFiles\TextTemplate21.txt">
+      <DependentUpon>TextTemplate21.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Content>
+    <Content Include="TextFiles\TextTemplate22.1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>TextTemplate22.1.txt</LastGenOutput>
+    </Content>
+    <Content Include="TextFiles\TextTemplate22.1.txt">
+      <DependentUpon>TextTemplate22.1.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Content>
+    <Content Include="TextFiles\TextTemplate23.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>TextTemplate23.txt</LastGenOutput>
+    </Content>
+    <Content Include="TextFiles\TextTemplate23.txt">
+      <DependentUpon>TextTemplate23.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Content>
+    <Content Include="TextFiles\TextTemplate24.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>TextTemplate24.txt</LastGenOutput>
+    </Content>
+    <Content Include="TextFiles\TextTemplate24.txt">
+      <DependentUpon>TextTemplate24.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Content>
+    <Content Include="TextFiles\TextTemplate25.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>TextTemplate25.txt</LastGenOutput>
+    </Content>
+    <Content Include="TextFiles\TextTemplate25.txt">
+      <DependentUpon>TextTemplate25.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Content>
+    <Content Include="TextFiles\TextTemplate26.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>TextTemplate26.txt</LastGenOutput>
+    </Content>
+    <Content Include="TextFiles\TextTemplate26.txt">
+      <DependentUpon>TextTemplate26.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Content>
+    <Content Include="TextFiles\TextTemplate27.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>TextTemplate27.txt</LastGenOutput>
+    </Content>
+    <Content Include="TextFiles\TextTemplate27.txt">
+      <DependentUpon>TextTemplate27.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Content>
+    <Content Include="TextFiles\TextTemplate28.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>TextTemplate28.txt</LastGenOutput>
+    </Content>
+    <Content Include="TextFiles\TextTemplate28.txt">
+      <DependentUpon>TextTemplate28.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Content>
+    <Content Include="TextFiles\TextTemplate29.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>TextTemplate29.txt</LastGenOutput>
+    </Content>
+    <Content Include="TextFiles\TextTemplate29.txt">
+      <DependentUpon>TextTemplate29.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Content>
+    <Content Include="TextFiles\TextTemplate30.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>TextTemplate30.txt</LastGenOutput>
+    </Content>
+    <Content Include="TextFiles\TextTemplate30.txt">
+      <DependentUpon>TextTemplate30.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Content>
+    <Content Include="TextFiles\TextTemplate1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>TextTemplate1.txt</LastGenOutput>
+    </Content>
+    <Content Include="TextFiles\TextTemplate1.txt">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TextTemplate1.tt</DependentUpon>
+    </Content>
+    <Content Include="TextFiles\TextTemplate3.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>TextTemplate3.txt</LastGenOutput>
+    </Content>
+    <Content Include="TextFiles\TextTemplate3.txt">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TextTemplate3.tt</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
